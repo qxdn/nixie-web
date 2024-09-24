@@ -3,7 +3,7 @@ import DivergenceMeter from "./components/DivergenceMeter";
 import NixieClock from "./components/NixieClock";
 
 function App() {
-  const [mode, setMode] = React.useState<number>(0);
+  const [mode] = React.useState<number>(0);
 
   return (
     <div className="w-screen h-screen bg-black">
